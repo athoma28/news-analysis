@@ -1,0 +1,31 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Analysis App</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="/static/script.js" defer></script>
+</head>
+<body>
+    <h1>News Analysis App</h1>
+    <textarea id="article-text" rows="10" cols="50" placeholder="Paste the article text here"></textarea>
+    <button id="analyze-btn">Analyze</button>
+    <div id="results">
+        <h2>Summary</h2>
+        <p id="summary"></p>
+        <h2>Key People and Places</h2>
+        <ul id="people-and-places"></ul>
+        <h2>Key Data Points</h2>
+        <ul id="data-points"></ul>
+    </div>
+    <h2>Ask a Question</h2>
+    <textarea id="question" rows="10" cols="50" placeholder="Write your question about the article here"></textarea>
+    <button id="question-btn">Ask</button>
+    <div id="question-answer">
+        <h3>Answer</h3>
+        <p id="answer"></p>
+    </div>
+</body>
+</html>
